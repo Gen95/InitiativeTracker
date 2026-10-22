@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header({ onAdd }) {
+export default function Header({ onAdd, onClear }) {
   return (
     <header className="header">
       <div>
@@ -11,6 +11,10 @@ export default function Header({ onAdd }) {
       <button className="primaryButton" onClick={onAdd} type="button">
         <span className="plus">+</span>
         Добавить
+      </button>
+
+      <button className="primaryButton" onClick={onClear} type="button">
+        Очистить
       </button>
     </header>
   );
