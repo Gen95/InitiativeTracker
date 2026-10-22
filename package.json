@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://gen95.github.io/InitiativeTracker",
+  "homepage": "https://Gen95.github.io/InitiativeTracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
